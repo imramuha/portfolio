@@ -1,0 +1,137 @@
+
+
+// Mobile
+$base-font-family: 'Roboto Slab', sans-serif;
+$header-font-family: 'Open Sans', sans-serif;
+$thin-font-family: 'Raleway', sans-serif;
+$base-font-size: 18px;
+$base-font-weight: 400;
+
+// Base
+body {
+  font-family: $base-font-family;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $base-font-family;
+  font-weight: normal;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: $base-font-family;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    @include respond-to('tablet') {
+        font-size: 48px;
+        letter-spacing: 7px;
+    }
+    @include respond-to('small screen') {
+        font-size: 55px;
+        letter-spacing: 10px;
+    }
+    @include respond-to('medium screen') {
+        font-size: 63px;
+        letter-spacing: 13px;
+    }
+    @include respond-to('large screen') {
+        font-size: 84px;
+        letter-spacing: 21px;
+    }
+}
+
+h2 {
+    font-family: $header-font-family;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    @include respond-to('tablet') {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+    @include respond-to('small screen') {
+        font-size: 35px;
+        letter-spacing: 3px;
+    }
+    @include respond-to('medium screen') {
+        font-size: 48px;
+        letter-spacing: 4px;
+    }
+    @include respond-to('large screen') {
+        font-size: 63px;
+        letter-spacing: 5px;
+    }
+}
+
+h3 {
+    font-family: $header-font-family;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    @include respond-to('tablet') {
+        font-size: 20px;
+    }
+    @include respond-to('small screen') {
+        font-size: 25px;
+    }
+    @include respond-to('medium screen') {
+        font-size: 28px;
+    }
+    @include respond-to('large screen') {
+        font-size: 42px;
+    }
+}
+
+h4 {
+    font-family: $thin-font-family;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    @include respond-to('tablet') {
+        font-size: 16px;
+    }
+    @include respond-to('small screen') {
+        font-size: 18px;
+    }
+    @include respond-to('medium screen') {
+        font-size: 20px;
+    }
+    @include respond-to('large screen') {
+        font-size: 25px;
+    }
+}
+
+p {
+    font-size: 16px;
+    @include respond-to('tablet') {
+        font-size: 17px;
+    }
+    @include respond-to('small screen') {
+        font-size: 18px;
+    }
+    @include respond-to('medium screen') {
+        font-size: 19px;
+    }
+    @include respond-to('large screen') {
+        font-size: 20px;
+    }
+}
+
+// h6 - icons
+h6 {
+    font-size: 28px;
+    @include respond-to('tablet') {
+        font-size: 35px;
+    }
+    @include respond-to('small screen') {
+        font-size: 42px;
+    }
+    @include respond-to('medium screen') {
+        font-size: 48px;
+    }
+    @include respond-to('large screen') {
+        font-size: 55px;
+    }
+}

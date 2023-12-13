@@ -1,0 +1,78 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    .aboutIntro {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: calc(100vh - 50px);
+        justify-content: center;
+        align-items: left;
+        
+        p {
+            margin-left: 5vw;
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 1.5;
+            span {
+                color: white;
+                background-color: grey;
+                padding: 0px 5px;
+            }
+        }
+        h2 {
+            color: lightgray;
+        }
+        .jobTitle {
+            font-size: 14px;
+            font-weight: 100;
+            letter-spacing: 0.2px;
+            margin-left: calc(10vw + 10px);
+        }
+        .bodyOpeningTag {
+            position: absolute;
+            top: 50px;
+        }
+        .bodyClosingTag {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    .aboutExtra {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: calc(100vh - 50px);
+        justify-content: center;
+        align-items: flex-end;
+        margin-right: 5vw;
+        .aboutExtraHeader{
+            text-align: right;
+        }
+        .aboutExtraBody {
+            display: flex;
+            flex-direction: row;
+            margin: 5vh 0;
+        
+            .aboutImg {
+                width: 30vw;
+                height: auto;
+            }
+            .aboutSocials {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-left: 2.5vw;
+                margin-bottom: 0px;
+
+            }
+        }
+        .aboutExtraFooter {
+            
+          
+
+        }
+    }
+}

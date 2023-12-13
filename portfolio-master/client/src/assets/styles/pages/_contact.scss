@@ -1,0 +1,36 @@
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin: 50px 10vw 0px;
+    .contactData {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: calc(100vh - 50px);
+        justify-content: center;
+        align-items: center; 
+        text-align: right;
+        p {
+            font-size: 48px;
+            font-weight: 600;
+            text-transform: uppercase;
+            line-height: 1;
+            span {
+                line-height: 5;
+                font-size: 24px;
+                font-weight: 100;
+                letter-spacing: 5px;
+                text-transform: none;
+            }
+        }
+    }
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: calc(100vh - 50px);
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,34 @@
+@import "screens/breakpoints.scss";
+@import "variables/_fonts.scss";
+@import "variables/_colors.scss";
+@import "components/_navigation.scss";
+@import "components/_projectpreview.scss";
+@import "pages/_about.scss";
+@import "pages/_projects.scss";
+@import "pages/_project.scss";
+@import "pages/_contact.scss";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}

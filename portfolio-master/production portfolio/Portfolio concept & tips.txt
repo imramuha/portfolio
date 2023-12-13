@@ -1,0 +1,60 @@
+1. Presentable website -> Design/UI (Look up trends and moderns)
+2. Sufficient hosting and custom name hosting (SSL certificate)
+3. Keep it simple (most important things upfront, keep it short)
+	For example: showcase/about us/contact page
+4. Don't exaggarate your skill set, be honest. Tell what you know.
+5. Have live examples. Button to live project and button to live.
+	For example: command lines, ... not necessary, just code is enough
+	!! Don't put images, everyone can do those.
+6. Be selective with projects you're gonna put. 3-6 projects
+	Quality vs quanitity
+7. If you follow projects, customize them. Make it your own.
+8. Easy contact, employer knows how to contact you. Email/Phone
+9. Web presence & brand yourself online, Github, youtube, twitter.
+10. Be yourself, be honest, show passion, driven, hobbies?, personable.
+
+MAKE IT SHAREABLE!!
+
+REACTJS & MONGODB
+
+
+Sections
+RESUME
+
+PROJECTS
+ !! Context and information/process somehow.
+Process (Discovery>research>...>...>live
+	1. Briefing -> What kind of projects? 
+	2. Challenges -> What's the context? Client or yourself
+	3. Goals
+	4. Unique Solution -> what's different from others?
+
+Context:
+	who is it for?
+	where does it exist?
+	nature of the business? what kind of business?
+	Why should we care?
+	Tell you POV? What you think about you?
+
+Section -> GOOD/Finished ones (different projects -> ongoing?)
+
+Section -> Studies/WIP/Experienting
+
+!! No acronyms
+
+Things to have on portfolio
+[x] Logo
+[x] Tagline
+[] A bio/about me/introduction (tell me story)
+[x] Live projects, codes, PROCESS & CONTEXT
+[] SEO friendly
+[x] Downloadable resume (pref pdf)
+[x] A photo
+[] visible contact information
+[x] Social media accounts (github, linkedin, dribble, twitter)
+[] current status? CTA, get new clients, new job..? 
+
+
+TWO TYPES OF PROJECT VIEW 
+-> one is modernized!! The second one is very simple react table with links.
+

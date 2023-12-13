@@ -1,0 +1,4 @@
+To run:
+client: npm run start
+server: 
+node app.js
