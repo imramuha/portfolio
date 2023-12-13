@@ -18,7 +18,7 @@ class Socials extends Component {
             </a>
           </li>
           <li className="nav-line"></li>
-          <li>
+          {/*<li>
             <a href="https://twitter.com/imramuha" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={["fab", "twitter-square"]} />
             </a>
@@ -34,7 +34,7 @@ class Socials extends Component {
             <a href="www.pinterest.com/imramuha" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={["fab", "pinterest-square"]} />
             </a>
-          </li>
+          </li>*/}
         </ul>
       </React.Fragment>
     );

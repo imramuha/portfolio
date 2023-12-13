@@ -1,7 +1,5 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import api from "../api";
 
 import CategoryPreview from "../components/CategoryPreview";
 
@@ -22,7 +20,7 @@ class ProjectPreview extends Component {
                         <div className="projectPreviewBody">
                             <div class="projectPreviewImage">
                                 <Link to={"/project/" + this.props.project._id}>
-                                    <img src="https://via.placeholder.com/150/150" alt="project"/>
+                                    <img src={ require("../assets/images/yin.jpg") } alt="project"/>
                                 </Link>
                             </div>
                             <div className="projectPreviewInfo">
