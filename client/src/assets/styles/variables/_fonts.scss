@@ -102,18 +102,18 @@ h4 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 13px;
     @include respond-to('tablet') {
-        font-size: 17px;
+        font-size: 14px;
     }
     @include respond-to('small screen') {
-        font-size: 18px;
+        font-size: 15px;
     }
     @include respond-to('medium screen') {
-        font-size: 19px;
+        font-size: 16px;
     }
     @include respond-to('large screen') {
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 

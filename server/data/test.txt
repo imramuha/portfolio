@@ -1,0 +1,5 @@
+ "6579d4ac32d9dcc6f4225e62", // html
+            "6579d57f32d9dcc6f4225e64", // css
+            "657b5982499700863a02c117", // angular
+            "657b58d9499700863a02c115"  // wordpress
+              "6579d58432d9dcc6f4225e66", //sass

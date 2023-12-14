@@ -2,12 +2,15 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const Project = new Schema({
-    name: { type: String, required: true },
-    logo: { type: String, required: true},
-    info: { type: String, required: true },
-    github: { type: String, required: true },
-    frontend: { type: String, required: true },
-    backend: { type: String, required: true },
+    name: { type: String },
+    logo: { type: String },
+    info: { type: String },
+    year: { type: String },
+    github: { type: String },
+    frontend: { type: String },
+    backend: { type: String},
+    pdf: { type: String },
+    type: { type: String },
     categories: {type: Array, required: false}
 
 }, { timestamps: true }, )
