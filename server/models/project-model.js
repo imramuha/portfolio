@@ -9,6 +9,8 @@ const Project = new Schema({
     github: { type: String },
     frontend: { type: String },
     backend: { type: String},
+    live: { type: String},
+    status: { type: String},
     pdf: { type: String },
     type: { type: String },
     categories: {type: Array, required: false}

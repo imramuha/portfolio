@@ -32,7 +32,7 @@ class ProjectPreview extends Component {
                                 </div>
                                 <div className="projectPreviewIntro">
 
-                                    <h5>Intro</h5>
+                                    {/*--<h5>Intro</h5>*/}
                                     <p>{this.state.project.info}</p>
                                     {/* <Link to={"/project/" + this.props.project._id}>for more...</Link>*/}
                                 </div>
@@ -61,6 +61,11 @@ class ProjectPreview extends Component {
                                         <button>
                                             <span class="button-text">Back</span>
                                             <span class="button-text">end</span>
+                                        </button>
+                                    </a>}
+                                    {this.state.project.live.length !== 0 && <a href={this.state.project.live} target="_blank" rel="noopener noreferrer">
+                                        <button>
+                                            <span class="button-text">Live</span>
                                         </button>
                                     </a>}
                                     {console.log(`../assets/pdfs/${this.state.project.pdf}`)}

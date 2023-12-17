@@ -26,7 +26,7 @@ class About extends Component {
                     <h2 class="bodyClosingTag">&#60;/body&#62;</h2>
                 </div>
                 <div className="aboutExtra">
-                    <div className="aboutExtraHeader">Currently...</div>
+                    <div className="aboutExtraHeader">Current on search for a job</div>
                     <div className="aboutExtraBody">
                         <img
                             class="aboutImg"

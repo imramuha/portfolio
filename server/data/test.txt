@@ -3,3 +3,11 @@
             "657b5982499700863a02c117", // angular
             "657b58d9499700863a02c115"  // wordpress
               "6579d58432d9dcc6f4225e66", //sass
+
+              "6579d5b432d9dcc6f4225e68" //mysql
+              "6579d62332d9dcc6f4225e6c" //js
+              "6549fd86f44a776084285d32" // vue.js
+              "6549fda1f44a776084285d34" //laravel
+              "6579d61332d9dcc6f4225e6a", //php
+               "657f13822df03ef397f6f3d2",   node
+            "657f13bf2df03ef397f6f3d4"       npm

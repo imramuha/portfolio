@@ -72,13 +72,13 @@ h3 {
         font-size: 20px;
     }
     @include respond-to('small screen') {
-        font-size: 25px;
+        font-size: 23px;
     }
     @include respond-to('medium screen') {
-        font-size: 28px;
+        font-size: 26px;
     }
     @include respond-to('large screen') {
-        font-size: 42px;
+        font-size: 32px;
     }
 }
 
