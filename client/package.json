@@ -23,21 +23,20 @@
         "start": "set PORT=8000 && react-scripts --openssl-legacy-provider start",
         "build": "react-scripts --openssl-legacy-provider build",
         "test": "react-scripts --openssl-legacy-provider test",
-        "eject": "react-scripts --openssl-legacy-provider eject"
+        "eject": "react-scripts --openssl-legacy-provider eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
     },
     "browserslist": {
         "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
+            ">0.2%", "not dead", "not op_mini all"
         ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+        "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
     }
 }
