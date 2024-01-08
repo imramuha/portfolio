@@ -1,6 +1,6 @@
 [
     {
-        "name": "Project-GGG",
+        "name": "Project-GG",
         "info": "'Real-time Matchmaking for Casual Gamers' caters to the specific needs of diverse communities, offeres a feature-rich platform with a lobby/queue system, empowering players to connect with like-minded gamers.",
         "year": "2021",
         "github": "https://github.com/imramuha/Project-GG",
@@ -10,7 +10,7 @@
         "status": "Online",
         "media": "",
         "pdf": "",
-        "logo": "",
+        "logo": "projectgglogo.svg",
         "type": "webdev",
         "categories": [ 
             "6549fd86f44a776084285d32",
@@ -28,6 +28,21 @@
         ]
     },
     {
+        "name": "AquaLobby",
+        "info": "A web-based bidding platform that serves as a user-friendly marketplace, connecting koi enthusiasts, sellers and buyers for the effortlessly trading of diverse koi fishes.",
+        "year": "2018",
+        "github": "https://github.com/gdmgent-1718-webdev2/1718-webdev2-project-imramuha",
+        "frontend": "",
+        "backend": "",
+        "live": "",
+        "status": "Offline",
+        "media": "",
+        "pdf": "",
+        "logo": "aqualobbylogo.svg",
+        "type": "webdev",
+        "categories": []
+    },
+    {
         "name": "Entrepreneurs Lab",
         "info": "Designed for the international course Entrepreneurship Lab at Arteveldehogeschool, showcases inspiring students and their projects addressing global issues. Explore their stories through blogs, videos, and galleries",
         "year": "2019",
@@ -38,7 +53,7 @@
         "status": "Online",
         "media": "",
         "pdf": "",
-        "logo": "entrepreneuslab.png",
+        "logo": "entrepreneuslab.svg",
         "type": "algorithms",
         "categories": [ 
             "657b58d9499700863a02c115",
@@ -60,7 +75,7 @@
         "status": "Offline",
         "media": "",
         "pdf": "artetech.pdf",
-        "logo": "",
+        "logo": "artetechlogo.svg",
         "type": "webdev",
         "categories": [
             "6579d4ac32d9dcc6f4225e62", 
@@ -71,23 +86,8 @@
         ]
     },
     {
-        "name": "AquaLobby",
-        "info": "fdsfsdf",
-        "year": "2018",
-        "github": "https://github.com/gdmgent-1718-webdev2/1718-webdev2-project-imramuha",
-        "frontend": "",
-        "backend": "",
-        "live": "",
-        "status": "Offline",
-        "media": "",
-        "pdf": "",
-        "logo": "aqualobby.png",
-        "type": "webdev",
-        "categories": []
-    },
-    {
         "name": "Flowntasy",
-        "info": "",
+        "info": "Social media for sharing spontaneous creative thoughts, known as *flows*. Post your flows, discover others' flows and connect with individuals on resonant flow by following, liking, and commenting.",
         "year": "2018",
         "github": "https://github.com/imramuha/Flowntasy",
         "frontend": "",
@@ -96,13 +96,13 @@
         "status": "Offline",
         "media": "",
         "pdf": "",
-        "logo": "flowntasy.png",
+        "logo": "flowntasylogo.svg",
         "type": "webdev",
         "categories": []
     },
     {
         "name": "Ururu",
-        "info": "",
+        "info": "This portfolio website showcases projects of students in an engaging manner. For alumni, prospective students, and employers, it serves as a dynamic platform reflecting students' creativity, dedication, and showcasing their potential",
         "year": "2018",
         "github": "https://github.com/imramuha/Ururu",
         "frontend": "",
@@ -111,7 +111,7 @@
         "status": "Offline",
         "media": "",
         "pdf": "",
-        "logo": "",
+        "logo": "ururulogo.svg",
         "type": "webdev",
         "categories": []
     },

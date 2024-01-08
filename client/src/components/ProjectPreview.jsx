@@ -56,7 +56,7 @@ class ProjectPreview extends Component {
                                             <span class="button-text">end</span>
                                         </button>
                                     </a>}
-                                    {console.log(this.state.project.backend.length !== 0)}
+
                                     {this.state.project.backend.length !== 0 && <a href={this.state.project.backend} target="_blank" rel="noopener noreferrer">
                                         <button>
                                             <span class="button-text">Back</span>
@@ -68,7 +68,7 @@ class ProjectPreview extends Component {
                                             <span class="button-text">Live</span>
                                         </button>
                                     </a>}
-                                    {console.log(`../assets/pdfs/${this.state.project.pdf}`)}
+                     
                                     {this.state.project.pdf.length !== 0 && <a href={require(`../assets/pdfs/${this.state.project.pdf}`)} target="_blank" rel="noopener noreferrer">
                                         <button trailingicon="picture_as_pdf"> 
                                             <span class="button-text">PDF</span>

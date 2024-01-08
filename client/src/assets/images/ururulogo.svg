@@ -1,0 +1,30 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+	<title>ururu logo</title>
+	<style>
+		.s0 { fill: #fefefe;stroke: #231f20;stroke-miterlimit:10;stroke-width: 2 } 
+		.s1 { fill: #000001;stroke: #231f20;stroke-miterlimit:10;stroke-width: 2 } 
+		.s2 { fill: none;stroke: #231f20;stroke-miterlimit:10;stroke-width: 2 } 
+	</style>
+	<rect width="1080" height="1080" id="Layer 2" style="fill: #ffffff"/>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m531.4 315.7l-13.6 65.1h30.2z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m513.9 401l-5.7 23.8h48.9l-5.4-23.8z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m561.2 445l5.2 23.8h-68l5.4-23.6z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m494.5 490l-6.5 25.8h87.7l-5.7-25.8z"/>
+			<path id="&lt;Path&gt;" class="s0" d="m530.7 1024.2c-100.3 0-213.7-126.9-163.9-233.7 51.3-110.3 115.8-253.5 115.8-253.5h97.8c0 0 64.5 143.2 115.8 253.5 49.8 106.8-63.1 234.2-163.9 233.7z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m541.1 540.7c0 0 29.6 260.7 37.2 297.9 0 0 4.4 14-25.9 13.9"/>
+				<path id="&lt;Path&gt;" class="s0" d=""/>
+				<path id="&lt;Path&gt;" class="s0" d=""/>
+				<path id="&lt;Path&gt;" class="s0" d="m520.4 540.7c0 0-29.6 260.7-37.3 297.9 0 0 0 13.9 25.9 13.9"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m798.3 149.3l-0.4 410.3"/>
+				<path id="&lt;Path&gt;" class="s1" d="m198 178l347-123 336.5 148-347.1 130.8-168.2-77.9z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m486.7 311.8c-54.9-19.3-126.1 16-126.1 16l5.6-71.9"/>
+				<path id="&lt;Path&gt;" class="s2" d="m600.5 308.9c30.6 0.7 104.3 33.7 104.3 33.7l4.5-74.7"/>
+			</g>
+		</g>
+	</g>
+</svg>
