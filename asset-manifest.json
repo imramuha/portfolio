@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/client/static/css/main.c24b24ff.css",
+    "main.js": "/portfolio/client/static/js/main.be4b4cc6.js",
+    "static/media/artetech.pdf": "/portfolio/client/static/media/artetech.17690ab5fd88337e21d1.pdf",
+    "static/media/entrepreneuslab.svg": "/portfolio/client/static/media/entrepreneuslab.d136365c9d895b5c40e1.svg",
+    "static/media/profilep.png": "/portfolio/client/static/media/profilep.db03d0b110c83c3e24fe.png",
+    "static/media/profilepic.png": "/portfolio/client/static/media/profilepic.e25e93df2b0b16866e64.png",
+    "static/media/flowntasylogo.svg": "/portfolio/client/static/media/flowntasylogo.47e002735f92a8381f39.svg",
+    "static/media/yin.jpg": "/portfolio/client/static/media/yin.36c00a75065e4840a724.jpg",
+    "static/media/hola.pdf": "/portfolio/client/static/media/hola.28ae5aab9471c6fd36b3.pdf",
+    "static/media/profilep.jpg": "/portfolio/client/static/media/profilep.83b446d18e66d7c7d391.jpg",
+    "static/media/profilepic.jpg": "/portfolio/client/static/media/profilepic.06e72c2adca61bf81ec9.jpg",
+    "static/media/aqualobbylogo.svg": "/portfolio/client/static/media/aqualobbylogo.c3d02ca0fa32640ea9ee.svg",
+    "static/media/favicon.ico": "/portfolio/client/static/media/favicon.4aea150037812c548484.ico",
+    "static/media/flowntasy.png": "/portfolio/client/static/media/flowntasy.6333bfd59597be247972.png",
+    "static/media/artetechlogo.svg": "/portfolio/client/static/media/artetechlogo.eca039c460eb32d667fa.svg",
+    "static/media/ururulogo.svg": "/portfolio/client/static/media/ururulogo.ca04da3e260d5251f90c.svg",
+    "static/media/projectggglogo.svg": "/portfolio/client/static/media/projectggglogo.0007f055203bff1734b7.svg",
+    "static/media/projectgglogo.svg": "/portfolio/client/static/media/projectgglogo.918c5c7f4ec9312aaf08.svg",
+    "static/media/logo-inverse.svg": "/portfolio/client/static/media/logo-inverse.fcae6771021b5e0b258a.svg",
+    "static/media/logo.svg": "/portfolio/client/static/media/logo.8673e7b3cbcd665d59dabfba4f3e4452.svg",
+    "index.html": "/portfolio/client/index.html",
+    "main.c24b24ff.css.map": "/portfolio/client/static/css/main.c24b24ff.css.map",
+    "main.be4b4cc6.js.map": "/portfolio/client/static/js/main.be4b4cc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c24b24ff.css",
+    "static/js/main.be4b4cc6.js"
+  ]
+}

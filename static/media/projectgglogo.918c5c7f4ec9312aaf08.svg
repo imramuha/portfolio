@@ -1,0 +1,27 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 950" width="1080" height="950">
+	<title>UXD - Logo-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #272727 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<path id="Shape 1" class="s0" d="m0-65h1080v1080h-1080z"/>
+	<g id="Folder 1">
+		<g id="&lt;Group&gt; copy 3">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s1" d="m941.5 820.7h-572.3l284.2-507.9zm-463.1-64h353.3l-177.9-313.5z"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m750 485l-66.7 171.3 163.3-1.1z"/>
+			</g>
+		</g>
+		<g id="&lt;Group&gt; copy 6">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s1" d="m426.1 636.9l-288.1-507.9h572.3zm-178.2-443.9l177.8 313.5 175.5-313.5z"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m434.5 302.1l88.3 158.1 89-156.7z"/>
+			</g>
+		</g>
+	</g>
+</svg>
