@@ -1,4 +1,6 @@
 To run:
 client: npm run start
+npm run deploy (push to github but also make an extra branch that would be used by github-pages to deploy)
+
 server: 
 node app.js

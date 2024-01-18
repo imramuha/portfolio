@@ -9,7 +9,7 @@
         "live": "",
         "status": "Online",
         "media": "",
-        "pdf": "",
+        "pdf": "projectgg.pdf",
         "logo": "projectgglogo.svg",
         "type": "webdev",
         "categories": [ 
@@ -32,15 +32,18 @@
         "info": "A web-based bidding platform that serves as a user-friendly marketplace, connecting koi enthusiasts, sellers and buyers for the effortlessly trading of diverse koi fishes.",
         "year": "2018",
         "github": "https://github.com/gdmgent-1718-webdev2/1718-webdev2-project-imramuha",
-        "frontend": "",
-        "backend": "",
+        "frontend": "https://aqualobby.netlify.app/",
+        "backend": "https://imranm19.sg-host.com",
         "live": "",
         "status": "Offline",
-        "media": "",
+        "media": "https://imramuha.github.io/AquaLobby/",
         "pdf": "",
         "logo": "aqualobbylogo.svg",
         "type": "webdev",
-        "categories": []
+        "categories": [
+            "6549fda1f44a776084285d34",
+            "6579d5b432d9dcc6f4225e68"
+        ]
     },
     {
         "name": "Entrepreneurs Lab",
@@ -95,7 +98,7 @@
         "live": "",
         "status": "Offline",
         "media": "",
-        "pdf": "",
+        "pdf": "flowntasy.pdf",
         "logo": "flowntasylogo.svg",
         "type": "webdev",
         "categories": []
@@ -107,10 +110,10 @@
         "github": "https://github.com/imramuha/Ururu",
         "frontend": "",
         "backend": "",
-        "live": "",
-        "status": "Offline",
+        "live": "https://imramuha.github.io/Ururu/app/",
+        "status": "Online",
         "media": "",
-        "pdf": "",
+        "pdf": "ururu.pdf",
         "logo": "ururulogo.svg",
         "type": "webdev",
         "categories": []

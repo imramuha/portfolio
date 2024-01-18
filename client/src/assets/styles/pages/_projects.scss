@@ -5,13 +5,40 @@
     width: 100%;
     .projectsHeader {
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        margin: 5% 0;
+        margin: 3% 3%;
+        .projectsHeaderTitle {
+            h2 {
+                margin-left: -1%;
+            }
+            p {
+                font-size: 12px;
+                margin-top: -5%;
+            }
+        }
+        .projectsHeaderCredentials {
+            //background-color: #33333;
+            //color: #fff;
+            //padding: 20px;
+            //padding: 0 1%;
+            box-sizing: border-box;
+
+            box-shadow: rgba(20, 20, 20, 0.7) 0px 5px, rgba(20, 20, 20, 0.6) 0px 10px, rgba(20, 20, 20, 0.5) 0px 15px, rgba(20, 20, 20, 0.4) 0px 20px, rgba(20, 20, 20, 0.35) 0px 25px;
+            h3 {
+                letter-spacing: 0;
+                font-weight: 700;
+            }
+            p {
+                text-align: right;
+                font-size: 12px;
+            }
+        }
     }
     .projectsBody {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 3% 1%;    
+        margin: 0 3% 1%;
     }
 }

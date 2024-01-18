@@ -12,6 +12,7 @@ const Project = new Schema({
     live: { type: String},
     status: { type: String},
     pdf: { type: String },
+    media: { type: String },
     type: { type: String },
     categories: {type: Array, required: false}
 

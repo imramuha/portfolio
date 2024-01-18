@@ -6,6 +6,7 @@ class Socials extends Component {
     return (
       <React.Fragment>
         <ul className="nav-socials">
+        <li className="nav-line"></li>
           <li>
             <a href="https://github.com/imramuha" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={["fab", "github-square"]} />
@@ -17,8 +18,9 @@ class Socials extends Component {
               <FontAwesomeIcon icon={["fab", "linkedin"]} />
             </a>
           </li>
-          <li className="nav-line"></li>
-          {/*<li>
+          
+          {/*<li className="nav-line"></li>
+          <li>
             <a href="https://twitter.com/imramuha" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={["fab", "twitter-square"]} />
             </a>

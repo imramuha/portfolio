@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import cv from "../../assets/pdfs/hola.pdf";
+import cv from "../../assets/pdfs/cv.pdf";
 
 class About extends Component {
     constructor(props) {
