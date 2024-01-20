@@ -8,9 +8,8 @@ class NavSocials extends Component {
         return (
             <React.Fragment>
                 <nav>
-                <Socials />
-                    <Links />
-                   
+                    <Socials />
+                    <Links />              
                 </nav>
             </React.Fragment>
         )

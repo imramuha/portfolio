@@ -15,7 +15,7 @@ class Header extends Component {
             />
           </li>
           <li className="nav-line"></li>
-          <li>This is my tagline</li>
+          <li>Imran Muhammad</li>
         </ul>
       </React.Fragment>
     );

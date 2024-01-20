@@ -41,7 +41,7 @@ class Projects extends Component {
                             </p>
                         </div>
                         <div className="projectsHeaderCredentials">
-                            <h3>Sample Login for all projects</h3>
+                            <h3>Sample Login for projects</h3>
                             <p><i>admin@imramuha.com</i></p>
                             <p><i>admin123</i></p>
                         </div>

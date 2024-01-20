@@ -68,6 +68,21 @@
         ]
     },
     {
+        "name": "Ururu",
+        "info": "This portfolio website showcases projects of students in an engaging manner. For alumni, prospective students, and employers, it serves as a dynamic platform reflecting students' creativity, dedication, and showcasing their potential",
+        "year": "2018",
+        "github": "https://github.com/imramuha/Ururu",
+        "frontend": "",
+        "backend": "",
+        "live": "https://imramuha.github.io/Ururu/app/",
+        "status": "Online",
+        "media": "",
+        "pdf": "ururu.pdf",
+        "logo": "ururulogo.svg",
+        "type": "webdev",
+        "categories": []
+    },
+    {
         "name": "Artetech",
         "info": "ARTE-TECH Workforce Management App—created to manage in-house teams and subcontractors. This Progressive Web App (PWA) makes time tracking and invoicing straightforward.",
         "year": "2020",
@@ -103,21 +118,7 @@
         "type": "webdev",
         "categories": []
     },
-    {
-        "name": "Ururu",
-        "info": "This portfolio website showcases projects of students in an engaging manner. For alumni, prospective students, and employers, it serves as a dynamic platform reflecting students' creativity, dedication, and showcasing their potential",
-        "year": "2018",
-        "github": "https://github.com/imramuha/Ururu",
-        "frontend": "",
-        "backend": "",
-        "live": "https://imramuha.github.io/Ururu/app/",
-        "status": "Online",
-        "media": "",
-        "pdf": "ururu.pdf",
-        "logo": "ururulogo.svg",
-        "type": "webdev",
-        "categories": []
-    },
+ 
     {
         "name": "Slaapwandel",
         "info": "",

@@ -54,15 +54,16 @@ nav {
         margin-right: 14px;
     }
     li a {
-        color: white;
+        //color: white;
+        color: #d8bf37;
         text-align: center;
         text-decoration: none;
         display: flex;
     }
     li a:hover {
-        text-decoration: none;
-        color: grey;
-        background-color: white;
+        //text-decoration: none;
+        color: white;
+        transition: 1s;
     }
 }
 

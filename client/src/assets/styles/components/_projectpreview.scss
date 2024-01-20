@@ -5,13 +5,19 @@
         font-weight: 700;
     }
     color: #333;
-    //background-color: grey;
+    background-color: white;
     display: flex;
-    border: 1px solid #333;
+    box-shadow: rgb(51, 51, 51) 0 0 1px 0px, rgb(51, 51, 51) 2px 2px 2px 2px;
+    border-radius: 0.01px;
     flex: 48%;
     margin-left: 1%;
     margin-bottom: 30px;
     flex-direction: row;
+    &:nth-child(odd) {
+        box-shadow: rgb(51, 51, 51) 0 0 1px 0px, rgb(51, 51, 51) -2px 2px 2px 2px;
+        margin-right: 1%;
+        margin-left: 0;
+    }
     .projectPreviewContainer {
         margin: 1%;
         display: flex;
@@ -54,17 +60,26 @@
                     h5 {
                         display: flex;
                         justify-content: space-between;
+                        color: #d8bf37;
+                    }
+                    p {
+                        font-size: 14px;
+                        font-weight: 700;
                     }
                 }
                 .projectPreviewTechnologies {
-
+                    h5 {
+                        display: flex;
+                        justify-content: space-between;
+                        color: #d8bf37;
+                    }
                     ul {
                         display: flex;
                         flex-wrap: wrap;
                         list-style: none;
                         padding: 0;
                         justify-content: left;
-                        margin-bottom: 0px;
+                        margin-bottom: 0;
                         column-gap: 10px;
                         flex-grow: 1;
                         li {
@@ -74,7 +89,7 @@
                             border-radius: 5px;
                             background-color: #333;
                             color: white;
-                            margin: 0px 0px 5px 0px;
+                            margin: 0 0 5px;
                             box-sizing: border-box;
                             box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
                             svg {
@@ -93,51 +108,47 @@
         }
     }
     .projectPreviewButtons {
+        padding: 1% 0;
         width: 10%;
-        background-color: #333;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        //justify-content: space-around;
         align-items: center;
-        height: 100%;
+        background-color: #333;
+        gap: 11.4px;
         a {
-            margin-left: 3%;
             text-decoration: none;
+            line-height: 1;
             button {
-                text-transform: uppercase;
-                font-weight: 700;
-                max-width: 50px;
-                min-width: 50px;
-                height: 50px;
-                background-color: #ffff;
-                color: #141313;
-                border: 1px solid #141313;
-                box-shadow: #14131354 0 0 0 2px, #14131393 0 4px 6px -1px, #141313c5 0 1px 0 inset;
-                font-size: 14px;
-                cursor: pointer;
-                transition: background-color 0.5s ease, border-radius 0.5s ease;
-                /* Slower transition */
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                text-transform: uppercase;
-                border-radius: 3px;
+                height: 48px;
+                width: 48px;
+                
+                cursor: pointer;
+                color: rgb(255, 255, 255);
+                background: #272727;
+                cursor: pointer;
+                border-color: #d8bf37;
+                border-width: 1px;
+                border-radius: 5px;
+                box-shadow: rgba(216, 219, 22, 0.651) 0px 2px 3px;
                 span {
                     font-size: 10px;
+                    text-transform:uppercase;
                 }
             }
+    
             button:hover {
-                color: #ffff;
-                transition-duration: 2s;
-                background-color: #333;
-                border-radius: 3px;
+                background-color: #ececec;
+                transition: 0.5s;
+                color: #272727;
             }
+
         }
-    }
-    &:nth-child(odd) {
-        margin-right: 1%;
-        margin-left: 0;
     }
     &:nth-child(even) {
         display: flex;
@@ -159,7 +170,7 @@
                 }
                 .projectPreviewTechnologies {
                     ul {
-                        //justify-content: right;
+                        justify-content: right;
                         li {
                             //margin-left: 5%;
                             //margin-right: 0;
@@ -176,8 +187,8 @@
                 .projectPreviewButtons {
                     justify-content: space-around;
                     a {
-                        margin-right: 3%;
-                        margin-left: 0;
+                        //margin-right: 3%;
+                        //margin-left: 0;
                     }
                 }
             }

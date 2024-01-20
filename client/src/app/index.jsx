@@ -6,6 +6,7 @@ import { About, Projects, Project, Contact } from "../pages";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
+// <Route path="/" exact component={About} />
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Route component={NavSocials} />
       </Switch>
       <Switch>
-        <Route path="/" exact component={About} />
+       
+        <Route path="/" exact component={Projects} />
         <Route path="/projects" exact component={Projects} />
         <Route path="/project/:id" exact component={Project} />
         <Route path="/contact" exact component={Contact} />
