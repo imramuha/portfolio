@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const db = require('./services/db');
 const ProjectModel = require('./models/project-model')
+const corn = cron = require('node-cron');
 
 const app = express();
 const apiPort = 3000;
@@ -57,6 +58,12 @@ app.get('/', (req, res) => {
 app.listen(apiPort, () => {
     console.log(`Server is running on port: ${apiPort}`);
 });
+
+// ping server every 14minutes
+cron.schedule('*/1 * * * *', () => {
+    console.log('running a task every two minutes');
+    console.log(new Date().toString());
+  });
 
 // import the routes files for projects and categories
 const ProjectRoutes = require('./routes/project-routes');

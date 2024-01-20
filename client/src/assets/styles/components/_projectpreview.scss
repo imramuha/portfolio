@@ -32,11 +32,12 @@
             }
             .projectPreviewInfo {
                 padding: 0.5% 0;
-                width: 69%;
-                margin-left: 1%;
+                width: 70%;
+                //margin-left: 1%;
                 display: flex;
                 flex-direction: column;
                 text-align: left;
+                justify-content: space-between;
                 ul {
                     display: flex;
                     flex-direction: row;
@@ -62,7 +63,10 @@
                         flex-wrap: wrap;
                         list-style: none;
                         padding: 0;
-                        justify-content: space-between;
+                        justify-content: left;
+                        margin-bottom: 0px;
+                        column-gap: 10px;
+                        flex-grow: 1;
                         li {
                             flex: 0 1 auto;
                             box-sizing: border-box;
@@ -70,8 +74,7 @@
                             border-radius: 5px;
                             background-color: #333;
                             color: white;
-                            margin: 5px;
-                            //margin-right: 5%;
+                            margin: 0px 0px 5px 0px;
                             box-sizing: border-box;
                             box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
                             svg {
@@ -151,7 +154,6 @@
                     }
                 }
                 .projectPreviewInfo {
-                    margin-right: 1%;
                     margin-left: 0;
                     text-align: right;
                 }
