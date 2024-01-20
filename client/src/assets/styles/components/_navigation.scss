@@ -1,7 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #333;
+    background-color: $midnight;
     position: fixed;
     top: 0;
     width: 100%;
@@ -17,12 +17,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: grey;
+    color: $sunny;
 }
 
 .nav-line {
     display: flex;
-    border-left: 3.5px solid black;
+    border-left: 3.5px solid $sunny;
     border-radius: 10%;
     height: 75%;
     margin: 3px 14px 0;
@@ -55,14 +55,14 @@ nav {
     }
     li a {
         //color: white;
-        color: #d8bf37;
+        color: $sunny;
         text-align: center;
         text-decoration: none;
         display: flex;
     }
     li a:hover {
         //text-decoration: none;
-        color: white;
+        color: $snow;
         transition: 1s;
     }
 }

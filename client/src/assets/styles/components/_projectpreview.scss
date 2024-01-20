@@ -4,17 +4,18 @@
         text-transform: uppercase;
         font-weight: 700;
     }
-    color: #333;
-    background-color: white;
+    color: $evening;
+    //background-color: white;
+    background-color: $sunny;
     display: flex;
-    box-shadow: rgb(51, 51, 51) 0 0 1px 0px, rgb(51, 51, 51) 2px 2px 2px 2px;
+    box-shadow: $snow  0 0 1px 0px, $snow  2px 2px 2px 2px;
     border-radius: 0.01px;
     flex: 48%;
     margin-left: 1%;
     margin-bottom: 30px;
     flex-direction: row;
     &:nth-child(odd) {
-        box-shadow: rgb(51, 51, 51) 0 0 1px 0px, rgb(51, 51, 51) -2px 2px 2px 2px;
+        box-shadow: $midnight 0 0 1px 0px, $evening -2px 2px 2px 2px;
         margin-right: 1%;
         margin-left: 0;
     }
@@ -60,7 +61,7 @@
                     h5 {
                         display: flex;
                         justify-content: space-between;
-                        color: #d8bf37;
+                        color: $midnight;;
                     }
                     p {
                         font-size: 14px;
@@ -71,7 +72,7 @@
                     h5 {
                         display: flex;
                         justify-content: space-between;
-                        color: #d8bf37;
+                        color: $evening;
                     }
                     ul {
                         display: flex;
@@ -87,8 +88,8 @@
                             box-sizing: border-box;
                             padding: 5px;
                             border-radius: 5px;
-                            background-color: #333;
-                            color: white;
+                            background-color: $evening;
+                            color: $white;
                             margin: 0 0 5px;
                             box-sizing: border-box;
                             box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -113,9 +114,8 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        //justify-content: space-around;
         align-items: center;
-        background-color: #333;
+        background-color: $midnight;
         gap: 11.4px;
         a {
             text-decoration: none;
@@ -127,15 +127,15 @@
                 justify-content: center;
                 height: 48px;
                 width: 48px;
-                
                 cursor: pointer;
-                color: rgb(255, 255, 255);
-                background: #272727;
+                color: $midnight;
+                background-color: $sunny;
+                //background: $blood;
                 cursor: pointer;
-                border-color: #d8bf37;
+                border-color: $sunny;
                 border-width: 1px;
                 border-radius: 5px;
-                box-shadow: rgba(216, 219, 22, 0.651) 0px 2px 3px;
+                box-shadow: $sunny 0px 2px 3px;
                 span {
                     font-size: 10px;
                     text-transform:uppercase;
@@ -143,9 +143,9 @@
             }
     
             button:hover {
-                background-color: #ececec;
+                background-color: $snow;
                 transition: 0.5s;
-                color: #272727;
+                color: $midnight;
             }
 
         }
@@ -171,10 +171,6 @@
                 .projectPreviewTechnologies {
                     ul {
                         justify-content: right;
-                        li {
-                            //margin-left: 5%;
-                            //margin-right: 0;
-                        }
                     }
                     svg {
                         margin: 7px 10px 0;
@@ -186,10 +182,6 @@
                 }
                 .projectPreviewButtons {
                     justify-content: space-around;
-                    a {
-                        //margin-right: 3%;
-                        //margin-left: 0;
-                    }
                 }
             }
         }
