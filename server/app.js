@@ -59,15 +59,17 @@ app.listen(apiPort, () => {
     console.log(`Server is running on port: ${apiPort}`);
 });
 
-// ping server every 14minutes
-cron.schedule('*/14 * * * *', () => {
-    console.log('Stay awake');
-    console.log(new Date().toString());
-  });
-
 // import the routes files for projects and categories
 const ProjectRoutes = require('./routes/project-routes');
 const CategoryRoutes = require('./routes/category-routes');
 
 app.use('/api', ProjectRoutes);
 app.use('/api', CategoryRoutes);
+
+// ping server every 14minutes
+cron.schedule('*/14 * * * *', () => {
+    console.log('Stay awake');
+    console.log(new Date().toString());
+    app.use('/api', ProjectRoutes);
+    app.use('/api', CategoryRoutes);
+});
