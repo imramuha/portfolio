@@ -60,8 +60,8 @@ app.listen(apiPort, () => {
 });
 
 // ping server every 14minutes
-cron.schedule('*/1 * * * *', () => {
-    console.log('running a task every two minutes');
+cron.schedule('*/14 * * * *', () => {
+    console.log('Stay awake');
     console.log(new Date().toString());
   });
 
