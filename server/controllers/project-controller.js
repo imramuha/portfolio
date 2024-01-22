@@ -122,6 +122,7 @@ getProjectById = async (req, res) => {
 getProjects = async (req, res) => {
     try {
         const projects = await Project.find({}).sort({ order: 1 });
+        console.log(projects);
         
         if (!projects.length) {
             return res.status(404).json({ success: false, error: `Project not found` });

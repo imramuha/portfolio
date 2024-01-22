@@ -3,8 +3,9 @@ const Schema = mongoose.Schema
 
 const Project = new Schema({
     name: { type: String },
-    logo: { type: String },
+    order: {type: Number},
     info: { type: String },
+    logo: { type: String },
     year: { type: String },
     github: { type: String },
     frontend: { type: String },
