@@ -1,6 +1,7 @@
 [
     {
         "name": "Project-GG",
+        "order": 1,
         "info": "'Real-time Matchmaking for Casual Gamers' caters to the specific needs of diverse communities, offeres a feature-rich platform with a lobby/queue system, empowering players to connect with like-minded gamers.",
         "year": "2021",
         "github": "https://github.com/imramuha/Project-GG",
@@ -17,18 +18,21 @@
             "6549fda1f44a776084285d34",
             "6579d5b432d9dcc6f4225e68",
             "6579d61332d9dcc6f4225e6a",
-            "657b58d9499700863a02c115",
             "6579d4ac32d9dcc6f4225e62",
             "6579d57f32d9dcc6f4225e64",
             "6579d58432d9dcc6f4225e66",
             "6579d57f32d9dcc6f4225e64",
             "6579d62332d9dcc6f4225e6c", 
             "657f13822df03ef397f6f3d2",
-            "657f13bf2df03ef397f6f3d4"
+            "657f13bf2df03ef397f6f3d4",
+            "65ada69bf030c910f1e77efe",
+            "65ada6a7f030c910f1e77eff",
+            "65ada6e1f030c910f1e77f00"
         ]
     },
     {
         "name": "AquaLobby",
+        "order": 2,
         "info": "A web-based bidding platform that serves as a user-friendly marketplace, connecting koi enthusiasts, sellers and buyers for the effortlessly trading of diverse koi fishes.",
         "year": "2018",
         "github": "https://github.com/gdmgent-1718-webdev2/1718-webdev2-project-imramuha",
@@ -41,12 +45,24 @@
         "logo": "aqualobbylogo.svg",
         "type": "webdev",
         "categories": [
+            "657b5982499700863a02c117",
             "6549fda1f44a776084285d34",
-            "6579d5b432d9dcc6f4225e68"
+            "6579d5b432d9dcc6f4225e68",
+            "65ada57cf030c910f1e77efb",
+            "6579d4ac32d9dcc6f4225e62",
+            "6579d58432d9dcc6f4225e66",
+            "6579d62332d9dcc6f4225e6c",
+            "657f13bf2df03ef397f6f3d4",
+            "657f13822df03ef397f6f3d2",
+            "65ada69bf030c910f1e77efe",
+            "65ada6a7f030c910f1e77eff",
+            "65ada6e1f030c910f1e77f00"
+            
         ]
     },
     {
         "name": "Entrepreneurs Lab",
+        "order": 3,
         "info": "Designed for the international course Entrepreneurship Lab at Arteveldehogeschool, showcases inspiring students and their projects addressing global issues. Explore their stories through blogs, videos, and galleries",
         "year": "2019",
         "github": "https://github.com/imramuha/paginatie",
@@ -60,15 +76,17 @@
         "type": "algorithms",
         "categories": [ 
             "657b58d9499700863a02c115",
+            "6579d5b432d9dcc6f4225e68",
             "6579d4ac32d9dcc6f4225e62",
             "6579d57f32d9dcc6f4225e64",
-            "6579d57f32d9dcc6f4225e64",
-            "6579d5b432d9dcc6f4225e68",
-            "6579d62332d9dcc6f4225e6c"
+            "6579d62332d9dcc6f4225e6c",
+            "65ada69bf030c910f1e77efe",
+            "65ada6e1f030c910f1e77f00"
         ]
     },
     {
         "name": "Ururu",
+        "order": 4,
         "info": "This portfolio website showcases projects of students in an engaging manner. For alumni, prospective students, and employers, it serves as a dynamic platform reflecting students' creativity, dedication, and showcasing their potential",
         "year": "2018",
         "github": "https://github.com/imramuha/Ururu",
@@ -80,10 +98,17 @@
         "pdf": "ururu.pdf",
         "logo": "ururulogo.svg",
         "type": "webdev",
-        "categories": []
+        "categories": [
+            "6579d4ac32d9dcc6f4225e62",
+            "6579d57f32d9dcc6f4225e64",
+            "6579d62332d9dcc6f4225e6c",
+            "657f13822df03ef397f6f3d2",
+            "657f13bf2df03ef397f6f3d4"
+        ]
     },
     {
         "name": "Artetech",
+        "order": 5,
         "info": "ARTE-TECH Workforce Management App—created to manage in-house teams and subcontractors. This Progressive Web App (PWA) makes time tracking and invoicing straightforward.",
         "year": "2020",
         "github": "https://github.com/imramuha/artetech",
@@ -96,15 +121,17 @@
         "logo": "artetechlogo.svg",
         "type": "webdev",
         "categories": [
+            "657b5982499700863a02c117", 
+            "657b58d9499700863a02c115",  
             "6579d4ac32d9dcc6f4225e62", 
             "6579d57f32d9dcc6f4225e64", 
             "6579d58432d9dcc6f4225e66",
-            "657b5982499700863a02c117", 
-            "657b58d9499700863a02c115"  
+            "65ada6e1f030c910f1e77f00"
         ]
     },
     {
         "name": "Flowntasy",
+        "order": 6,
         "info": "Social media for sharing spontaneous creative thoughts, known as *flows*. Post your flows, discover others' flows and connect with individuals on resonant flow by following, liking, and commenting.",
         "year": "2018",
         "github": "https://github.com/imramuha/Flowntasy",
@@ -116,12 +143,18 @@
         "pdf": "flowntasy.pdf",
         "logo": "flowntasylogo.svg",
         "type": "webdev",
-        "categories": []
+        "categories": [
+            "65adabc5f030c910f1e77f02",
+            "6579d4ac32d9dcc6f4225e62",
+            "6579d57f32d9dcc6f4225e64",
+            "6579d62332d9dcc6f4225e6c"
+        ]
     },
  
     {
         "name": "Slaapwandel",
-        "info": "",
+        "order": 7,
+        "info": "Development of a prototype device with IoT and sensors to ensure safety for children prone to sleepwalking. Additionally, a system that keeps caregivers visually updated and alerts them when a child could be in danger",
         "year": "2020",
         "github": "https://github.com/undefined-nmd/Slaapwandel",
         "frontend": "",
@@ -132,11 +165,18 @@
         "pdf": "",
         "logo": "",
         "type": "IoT",
-        "categories": []
+        "categories": [
+            "6579d63932d9dcc6f4225e6e",
+            "65ada805f030c910f1e77f01",
+            "6579d4ac32d9dcc6f4225e62",
+            "6579d57f32d9dcc6f4225e64",
+            "6579d62332d9dcc6f4225e6c"
+        ]
     },
     {
         "name": "Kandidatenlijst",
-        "info": "",
+        "order": 8,
+        "info": "A system for handling potential job candidates, aiding the recruitment team in organization by tracking candidate outreach and responses.",
         "year": "2019",
         "github": "https://github.com/imramuha/kandidatenlijst",
         "frontend": "",
@@ -147,11 +187,18 @@
         "pdf": "",
         "logo": "",
         "type": "webdev",
-        "categories": []
+        "categories": [
+            "65adabc5f030c910f1e77f02",
+            "6549fda1f44a776084285d34",
+            "6579d4ac32d9dcc6f4225e62",
+            "6579d57f32d9dcc6f4225e64",
+            "6579d62332d9dcc6f4225e6c"
+        ]
     },
     {
         "name": "Process scheduling",
-        "info": "",
+        "order": 10,
+        "info": "Exploring the design and evaluation of process scheduling algorithms for optimizing system performance in operating systems",
         "year": "2022",
         "github": "https://github.com/imramuha/process_scheduling",
         "frontend": "",
@@ -162,11 +209,14 @@
         "pdf": "",
         "logo": "",
         "type": "algorithms",
-        "categories": []
+        "categories": [
+            "65ada5e1f030c910f1e77efd"
+        ]
     },
     {
         "name": "Paginatie",
-        "info": "",
+        "order": 9,
+        "info": "Simulation of memory and processor in the context of paging in operating systems",
         "year": "2022",
         "github": "https://github.com/imramuha/paginatie",
         "frontend": "",
@@ -177,6 +227,8 @@
         "pdf": "",
         "logo": "",
         "type": "algorithms",
-        "categories": []
+        "categories": [
+            "65ada5e1f030c910f1e77efd"
+        ]
     }
 ]

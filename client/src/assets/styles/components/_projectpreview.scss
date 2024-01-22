@@ -6,16 +6,18 @@
     }
     color: $evening;
     //background-color: white;
-    background-color: $sunny;
+    background-color: $grey;
     display: flex;
-    box-shadow: $snow  0 0 1px 0px, $snow  2px 2px 2px 2px;
+    box-shadow: $midnight  0 0 1px 0px, $snow 1px 1px 1px 1px;
+    //box-shadow: $sunny 0px 0px 0px 2px, rgba(255, 255, 255, 0.308) 0px 4px 6px -1px, rgba(255, 255, 255, 0.808) 0px 1px 0px inset;
     border-radius: 0.01px;
     flex: 48%;
     margin-left: 1%;
     margin-bottom: 30px;
     flex-direction: row;
     &:nth-child(odd) {
-        box-shadow: $midnight 0 0 1px 0px, $evening -2px 2px 2px 2px;
+        //box-shadow: $midnight 0 0 1px 0px, $evening -2px 2px 2px 2px;
+        box-shadow: $midnight  0 0 1px 0px, $snow -1px 1px 1px 1px;
         margin-right: 1%;
         margin-left: 0;
     }
@@ -59,6 +61,7 @@
                     display: flex;
                     flex-direction: column;
                     h5 {
+                        margin-top: -5px;
                         display: flex;
                         justify-content: space-between;
                         color: $midnight;;
@@ -73,6 +76,7 @@
                         display: flex;
                         justify-content: space-between;
                         color: $evening;
+                        margin-bottom: -5px;
                     }
                     ul {
                         display: flex;
@@ -80,9 +84,8 @@
                         list-style: none;
                         padding: 0;
                         justify-content: left;
-                        margin-bottom: 0;
+                        margin-bottom: -3px;
                         column-gap: 10px;
-                        flex-grow: 1;
                         li {
                             flex: 0 1 auto;
                             box-sizing: border-box;
@@ -90,12 +93,12 @@
                             border-radius: 5px;
                             background-color: $evening;
                             color: $white;
-                            margin: 0 0 5px;
+                            margin: 8px 0 0;
                             box-sizing: border-box;
                             box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
                             svg {
                                 font-size: 12px;
-                                margin: 4px 5px 0 0;
+                                margin: 1px 5px 0 0;
                             }
                             p {
                                 font-size: 12px;
@@ -116,17 +119,21 @@
         flex-direction: column;
         align-items: center;
         background-color: $midnight;
-        gap: 11.4px;
+        //background-color: $evening;
+        gap: 14.3px;
         a {
             text-decoration: none;
             line-height: 1;
+            &:first-child{
+                margin-top: 6px;
+            }
             button {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                height: 48px;
-                width: 48px;
+                height: 43px;
+                width: 43px;
                 cursor: pointer;
                 color: $midnight;
                 background-color: $sunny;
@@ -134,9 +141,11 @@
                 cursor: pointer;
                 border-color: $sunny;
                 border-width: 1px;
-                border-radius: 5px;
-                box-shadow: $sunny 0px 2px 3px;
+                border-radius: 2px;
+                box-shadow: $sunny 0px 0px 0px 2px, rgba(255, 255, 255, 0.308) 0px 4px 6px -1px, rgba(255, 255, 255, 0.808) 0px 1px 0px inset;
+              
                 span {
+                    font-weight: 900;
                     font-size: 10px;
                     text-transform:uppercase;
                 }
@@ -169,11 +178,14 @@
                     text-align: right;
                 }
                 .projectPreviewTechnologies {
+                    h5 {
+                        justify-content: right;
+                    }
                     ul {
                         justify-content: right;
                     }
                     svg {
-                        margin: 7px 10px 0;
+                        margin: 9px 10px 0;
                     }
                 }
                 .projectPreviewImage {

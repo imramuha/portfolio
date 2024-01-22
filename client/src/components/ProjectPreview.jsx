@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
+import Logo  from "../assets/images/logo.svg"
 
 import CategoryPreview from "../components/CategoryPreview";
 
@@ -24,14 +25,14 @@ class ProjectPreview extends Component {
                                         ? <img
                                                 src={require(`../assets/images/${this.state.project.logo}`)}
                                                 alt="project"/>
-                                        : <img src={require("../assets/images/yin.jpg")} alt="project"/>}
+                                        : <img src={Logo} alt="project"/>}
                                 </Link>
                             </div>
                             <div className="projectPreviewInfo">
                                 <div className="projectPreviewTitle">
                                     <h5>{this.state.project.name}
                                         <span>
-                                            {this.state.project.year}</span>
+                                            [{this.state.project.year}]</span>
                                     </h5>
 
                                     {/*--<h5>Intro</h5>*/}
@@ -84,11 +85,11 @@ class ProjectPreview extends Component {
                                 <span class="button-text">PDF</span>
                             </button>
                         </a>}
-                        {/*this.state.project.media.length !== 0 && <a href={this.state.project.media} target="_blank" rel="noopener noreferrer">
+                        {this.state.project.media.length !== 0 && <a href={this.state.project.media} target="_blank" rel="noopener noreferrer">
                                         <button >
                                             <span class="button-text">Media</span>
                                         </button>
-                                            </a>*/}
+                                            </a>}
                         {this.state.project.github.length !== 0 && <a href={this.state.project.github} target="_blank" rel="noopener noreferrer">
                             <button>
                                 <span class="button-text">Git</span>

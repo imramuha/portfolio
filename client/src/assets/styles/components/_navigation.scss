@@ -1,12 +1,13 @@
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: $midnight;
+    //background-color: $midnight;
+    background-color: $sunny;
     position: fixed;
     top: 0;
     width: 100%;
     font-size: 31px;
-    line-height: 0px;
+    line-height: 0;
     height: 50px;
     ul:first-child {
         //margin-left: 14px;
@@ -17,19 +18,19 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $sunny;
 }
 
 .nav-line {
     display: flex;
-    border-left: 3.5px solid $sunny;
+    //border-left: 3.5px solid $sunny;
+    border-left: 10px solid $midnight;
     border-radius: 10%;
     height: 75%;
     margin: 3px 14px 0;
 }
 
-.nav-links,
 .nav-header,
+.nav-links,
 .nav-socials {
     list-style-type: none;
     margin: 7px 0 10px;
@@ -37,14 +38,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
+    //color: $sunny;
+    color: $midnight;
+    font-weight: 900;
     li {
         display: flex;
         justify-content: center;
         justify-items: center;
         flex-direction: column;
         a {
-            padding: 0px;
+            padding: 0;
             display: flex;
             justify-content: center;
             justify-items: center;
@@ -55,7 +58,7 @@ nav {
     }
     li a {
         //color: white;
-        color: $sunny;
+        //color: $sunny;
         text-align: center;
         text-decoration: none;
         display: flex;

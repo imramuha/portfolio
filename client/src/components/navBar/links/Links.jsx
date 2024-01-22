@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import cv from "../../../assets/pdfs/cv.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Links extends Component {
     render() {
@@ -15,6 +16,12 @@ class Links extends Component {
                     <li>
                         <a href={cv} without rel="noopener noreferrer" target="_blank">
                             CV
+                        </a>
+                    </li>
+                    <li className="nav-line"></li>
+                    <li>
+                        <a className="nav-links-lightbulb">
+                            <FontAwesomeIcon icon={["fas", "lightbulb"]}/>
                         </a>
                     </li>
                     <li className="nav-line"></li>
