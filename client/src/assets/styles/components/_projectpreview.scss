@@ -5,28 +5,22 @@
         font-weight: 700;
     }
     color: $evening;
-    //background-color: white;
     background-color: $grey;
     display: flex;
-    box-shadow: $midnight  0 0 1px 0px, $snow 1px 1px 1px 1px;
-    //box-shadow: $sunny 0px 0px 0px 2px, rgba(255, 255, 255, 0.308) 0px 4px 6px -1px, rgba(255, 255, 255, 0.808) 0px 1px 0px inset;
+    box-shadow: $midnight 0 0 1px 0px, $snow 1px 1px 1px 1px;
     border-radius: 0.01px;
-    flex: 48%;
-    margin-left: 1%;
+    flex: 100%;
     margin-bottom: 30px;
     flex-direction: row;
-    &:nth-child(odd) {
-        //box-shadow: $midnight 0 0 1px 0px, $evening -2px 2px 2px 2px;
-        box-shadow: $midnight  0 0 1px 0px, $snow -1px 1px 1px 1px;
+    @media only screen and (min-width: 1000px) {
+        flex: 48%;
         margin-right: 1%;
-        margin-left: 0;
     }
     .projectPreviewContainer {
         margin: 1%;
         display: flex;
         flex-direction: column;
         width: 90%;
-        //height: 100%;
         .projectPreviewBody {
             display: flex;
             flex-direction: row;
@@ -64,11 +58,15 @@
                         margin-top: -5px;
                         display: flex;
                         justify-content: space-between;
-                        color: $midnight;;
+                        color: $midnight;
                     }
                     p {
-                        font-size: 14px;
-                        font-weight: 700;
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: $evening;
+                        @media only screen and (min-width: 1000px) {
+                            font-size: 18px;
+                        }
                     }
                 }
                 .projectPreviewTechnologies {
@@ -97,12 +95,22 @@
                             box-sizing: border-box;
                             box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
                             svg {
-                                font-size: 12px;
-                                margin: 1px 5px 0 0;
+                                margin: 2px 5px 0 0;
+                                font-size: 9px;
+                                @media only screen and (min-width: 1000px) {
+                                    font-size: 12px;
+                                }
+                            }
+                            img {
+                                margin-top: -3px;
+                                margin-right: 5px;
                             }
                             p {
-                                font-size: 12px;
+                                font-size: 9px;
                                 text-transform: uppercase;
+                                @media only screen and (min-width: 1000px) {
+                                    font-size: 12px;
+                                }
                             }
                         }
                     }
@@ -124,7 +132,7 @@
         a {
             text-decoration: none;
             line-height: 1;
-            &:first-child{
+            &:first-child {
                 margin-top: 6px;
             }
             button {
@@ -142,15 +150,14 @@
                 border-color: $sunny;
                 border-width: 1px;
                 border-radius: 2px;
-                box-shadow: $sunny 0px 0px 0px 2px, rgba(255, 255, 255, 0.308) 0px 4px 6px -1px, rgba(255, 255, 255, 0.808) 0px 1px 0px inset;
-              
+                box-shadow: $sunny 0 0 0 2px, rgba(255, 255, 255, 0.308) 0 4px 6px -1px, rgba(255, 255, 255, 0.808) 0 1px 0 inset;
+
                 span {
                     font-weight: 900;
                     font-size: 10px;
-                    text-transform:uppercase;
+                    text-transform: uppercase;
                 }
             }
-    
             button:hover {
                 background-color: $snow;
                 transition: 0.5s;
@@ -163,6 +170,12 @@
         display: flex;
         justify-content: flex-end;
         flex-direction: row-reverse;
+        margin-right: 0;
+        box-shadow: $midnight 0 0 1px 0px, $snow -1px 1px 1px 1px;
+        margin-left: 0;
+        @media only screen and (min-width: 1000px) {
+            margin-left: 1%;
+        }
         .projectPreviewContainer {
             .projectPreviewBody {
                 display: flex;

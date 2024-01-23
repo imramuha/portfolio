@@ -2,6 +2,14 @@ import React, {Component} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import api from "../api";
 
+import NpmIcon from "../assets/images/npm.svg";
+import PsIcon from "../assets/images/ps.svg";
+import AiIcon from "../assets/images/ai.svg";
+import XdIcon from "../assets/images/xd.svg";
+import FirebaseIcon from "../assets/images/firebase.svg";
+import MarkdownIcon from "../assets/images/markdown.svg";
+import MysqlIcon from "../assets/images/mysql.svg";
+
 class CategoryPreview extends Component {
     constructor(props) {
         super(props);
@@ -10,6 +18,7 @@ class CategoryPreview extends Component {
             category: [],
             isLoading: false
         };
+        console.log();
     }
 
     componentDidMount = async() => {
@@ -51,8 +60,6 @@ class CategoryPreview extends Component {
                 return <FontAwesomeIcon icon={["fab", "js"]}/>;
             case "MongoDB":
                 return <FontAwesomeIcon icon={["fas", "database"]}/>;
-            case "MySQL":
-                return <FontAwesomeIcon icon={["fas", "database"]}/>;
             case "Python":
                 return <FontAwesomeIcon icon={["fab", "python"]}/>;
             case "Node.js":
@@ -61,6 +68,22 @@ class CategoryPreview extends Component {
                 return <FontAwesomeIcon icon={["fab", "angular"]}/>;
             case "React":
                 return <FontAwesomeIcon icon={["fab", "react"]}/>;
+            case "Java":
+                return <FontAwesomeIcon icon={["fab", "java"]}/>;
+            case "MySQL":
+                return <img src={MysqlIcon}/>;
+            case "npm":
+                return <img src={NpmIcon}/>;
+            case "Markdown":
+                return <img src={MarkdownIcon}/>;
+            case "XD":
+                return <img src={XdIcon}/>;
+            case "Ps":
+                return <img src={PsIcon}/>;
+            case "Ai":
+                return <img src={AiIcon}/>;
+            case "Firebase":
+                return <img src={FirebaseIcon}/>;
                 // Add more cases as needed for additional icons
             default:
                 return null;
