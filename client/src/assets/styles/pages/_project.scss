@@ -17,13 +17,13 @@
                 list-style-type: none;
                 margin-bottom: 0;
                 li {
-                    background-color: $sunny;
+                    background-color: var(--sunny);
                     margin-right: 10px;
                     padding: 5px;
                 }
             }
             .projectTechnologies {
-                background-color: $sunny;
+                background-color: var(--sunny);
                 margin: 2.5vh;
                 padding: 10px;
             }
@@ -34,7 +34,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         width: 25%;  
-        background-color: $snow;
+        background-color: var(--snow);
         height: calc(95vh - 50px);
         margin: 2.5vh;
         position: sticky;
@@ -62,7 +62,7 @@
                 list-style-type: none;
                 list-style-position: inside;
                 margin-left: 15px;
-                color: $sunny;
+                color: var(--sunny);
                 li {
                     font-size: 14px;
                 }
@@ -74,7 +74,7 @@
             align-items: center;
             h3 {
                 font-weight: 100;
-                color: $snow;
+                color: var(--snow);
             }
         }
     }

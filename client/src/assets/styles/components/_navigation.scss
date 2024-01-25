@@ -1,8 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    //background-color: $midnight;
-    background-color: $sunny;
+    background-color: var(--sunny);
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,8 +21,8 @@ nav {
 
 .nav-line {
     display: flex;
-    //border-left: 3.5px solid $sunny;
-    border-left: 10px solid $midnight;
+    //border-left: 3.5px solid var(--sunny);
+    border-left: 10px solid var(--midnight);
     border-radius: 10%;
     height: 75%;
     margin: 3px 14px 0;
@@ -38,8 +37,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    //color: $sunny;
-    color: $midnight;
+    color: var(--midnight);
     font-weight: 900;
     li {
         display: flex;
@@ -58,15 +56,27 @@ nav {
     }
     li a {
         //color: white;
-        //color: $sunny;
+        //color: var(--sunny);
         text-align: center;
         text-decoration: none;
         display: flex;
     }
     li a:hover {
         //text-decoration: none;
-        color: $snow;
+        color: var(--snow);
         transition: 1s;
+    }
+    .light-mode {
+        color: var(--white);
+        li a:hover {
+            color: var(--midnight);
+        }
+    }
+    .dark-mode {
+        color: var(--white);
+        li a:hover {
+            color: var(--midnight);
+        }
     }
 }
 

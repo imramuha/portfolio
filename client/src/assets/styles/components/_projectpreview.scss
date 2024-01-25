@@ -4,10 +4,10 @@
         text-transform: uppercase;
         font-weight: 700;
     }
-    color: $evening;
-    background-color: $grey;
+    color: var(--evening);
+    background-color: var(--grey);
     display: flex;
-    box-shadow: $midnight 0 0 1px 0px, $snow 1px 1px 1px 1px;
+    box-shadow: var(--midnight) 0 0 1px 0px, var(--snow) 1px 1px 1px 1px;
     border-radius: 0.01px;
     flex: 100%;
     margin-bottom: 30px;
@@ -58,12 +58,12 @@
                         margin-top: -5px;
                         display: flex;
                         justify-content: space-between;
-                        color: $midnight;
+                        color: var(--midnight);
                     }
                     p {
                         font-size: 12px;
                         font-weight: 500;
-                        color: $evening;
+                        color: var(--evening);
                         @media only screen and (min-width: 1000px) {
                             font-size: 18px;
                         }
@@ -73,7 +73,7 @@
                     h5 {
                         display: flex;
                         justify-content: space-between;
-                        color: $evening;
+                        color: var(--evening);
                         margin-bottom: -5px;
                     }
                     ul {
@@ -89,8 +89,8 @@
                             box-sizing: border-box;
                             padding: 5px;
                             border-radius: 5px;
-                            background-color: $evening;
-                            color: $white;
+                            background-color: var(--evening);
+                            color: var(--white);
                             margin: 8px 0 0;
                             box-sizing: border-box;
                             box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -126,8 +126,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: $midnight;
-        //background-color: $evening;
+        background-color: var(--midnight);
+        //background-color: var(--evening);
         gap: 14.3px;
         a {
             text-decoration: none;
@@ -143,14 +143,14 @@
                 height: 43px;
                 width: 43px;
                 cursor: pointer;
-                color: $midnight;
-                background-color: $sunny;
-                //background: $blood;
+                color: var(--midnight);
+                background-color: var(--sunny);
+                //background: var(--blood);
                 cursor: pointer;
-                border-color: $sunny;
+                border-color: var(--sunny);
                 border-width: 1px;
                 border-radius: 2px;
-                box-shadow: $sunny 0 0 0 2px, rgba(255, 255, 255, 0.308) 0 4px 6px -1px, rgba(255, 255, 255, 0.808) 0 1px 0 inset;
+                box-shadow: var(--sunny) 0 0 0 2px, rgba(255, 255, 255, 0.308) 0 4px 6px -1px, rgba(255, 255, 255, 0.808) 0 1px 0 inset;
 
                 span {
                     font-weight: 900;
@@ -159,9 +159,9 @@
                 }
             }
             button:hover {
-                background-color: $snow;
+                background-color: var(--snow);
                 transition: 0.5s;
-                color: $midnight;
+                color: var(--midnight);
             }
 
         }
@@ -171,7 +171,7 @@
         justify-content: flex-end;
         flex-direction: row-reverse;
         margin-right: 0;
-        box-shadow: $midnight 0 0 1px 0px, $snow -1px 1px 1px 1px;
+        box-shadow: var(--midnight) 0 0 1px 0px, var(--snow) -1px 1px 1px 1px;
         margin-left: 0;
         @media only screen and (min-width: 1000px) {
             margin-left: 1%;
