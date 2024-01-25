@@ -6,6 +6,16 @@ $white: rgb(255, 255, 255);
 $blood: #932530;
 $grey: rgb(223, 222, 214);
 
+body {
+    --midnight: #{$midnight} !important;
+    --evening: #{$evening} !important;
+    --sunny: #{$sunny} !important;
+    --snow: #{$snow} !important;
+    --white: #{$white} !important;
+    --blood: #{$blood} !important;
+    --grey: #{$grey} !important;
+}
+
 body.light-mode {
     --midnight: #{$snow} !important;
     --evening: #{$snow} !important;
